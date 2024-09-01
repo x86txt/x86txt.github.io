@@ -35,6 +35,7 @@ jobs:
             index.html
             resume.pdf
   deploy:
+    needs: convert_via_pandoc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
