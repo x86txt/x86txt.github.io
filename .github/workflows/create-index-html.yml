@@ -26,4 +26,17 @@ jobs:
       - name: "Convert MD to HTML"
         run: |
           pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{github.actor}}-resume.html
-          cp output/${{github.actor}}-resume.html /index.html
+          cp output/${{github.actor}}-resume.html $GITHUB_WORKSPACE/index.html
+          cp output/${{github.actor}}-resume.html output/index.html
+   
+  deploy:
+    needs: convert_via_pandoc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
