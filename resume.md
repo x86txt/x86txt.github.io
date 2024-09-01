@@ -116,5 +116,3 @@ subject: 'Subject'
 
 ### Certified Kubernetes Security Specialist (CKS)
 - 2024-Present
-
-update & gha test
