@@ -15,7 +15,7 @@ subject: 'Subject'
 ---
 ###### [[mattevans.cloud](https://mattevans.cloud)] . [ me@mattevans.cloud] . [ 704 207 6585 ]
 
-### Site Reliability Engineer with a strong love of automation, observability, and working on teams to solve the perception of the impossible.
+### Site Reliability Engineer with a strong love of automation, observability, and working collaboratively to achieve the impossible.
 
 ## Skills
 
