@@ -46,6 +46,9 @@ jobs:
         with:
           name: converted-files
           path: ./output
+        
+      - name: List files for debugging
+        run: ls -R ./
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
