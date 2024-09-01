@@ -8,7 +8,7 @@ on:
 
 jobs:
   convert_via_pandoc:
-    runs-on: debian-bookworm
+    runs-on: debian-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
