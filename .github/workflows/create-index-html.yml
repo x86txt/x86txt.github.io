@@ -55,7 +55,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: github-pages
-          path: .
+          path: ./output
 
       - name: list folder structure
         run: ls -lR .
