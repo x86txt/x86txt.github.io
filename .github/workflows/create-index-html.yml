@@ -35,7 +35,6 @@ jobs:
             index.html
             resume.pdf
   deploy:
-    if: ${{ always() && contains(join(needs.*.result, ','), 'success') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
