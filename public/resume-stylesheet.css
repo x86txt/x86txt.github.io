@@ -33,6 +33,12 @@ video {
     display: inline-block;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    font: pre;
+  }
+
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.

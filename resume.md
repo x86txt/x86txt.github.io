@@ -117,6 +117,6 @@ subject: 'Subject'
 ### Certified Kubernetes Security Specialist (CKS)
 - 2024-Present
 
-<footer>
+<footer class="footer">
 last updated: 2024-09-01
 </footer>
