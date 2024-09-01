@@ -118,5 +118,5 @@ subject: 'Subject'
 - 2024-Present
 
 <footer class="footer">
-last updated: 2024-09-01
+last updated: 2024-09-01 | [pdf copy](./resume.pdf)
 </footer>
