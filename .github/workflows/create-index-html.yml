@@ -1,0 +1,29 @@
+name: Create Index HTML File
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: "Create a folder called output"
+        run: |
+          mkdir output
+          cp resume-stylesheet.css output/resume-stylesheet.css
+          cp resume.md output/${{ github.actor }}-resume.md
+      # downloading the binaries directly, because they are newer and work better, than the ones that come with Ubuntu latest.
+      - name: "Install pandoc and wkhtmltopdf"
+        run: |
+          wget https://github.com/jgm/pandoc/releases/download/3.3/pandoc-3.3-1-amd64.deb
+          sudo apt install ./pandoc-3.3-1-amd64.deb
+
+      - name: "Convert MD to HTML"
+        run: |
+          pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{github.actor}}-resume.html
+          cp output/${{github.actor}}-resume.html /index.html
