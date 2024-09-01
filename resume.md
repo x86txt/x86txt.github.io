@@ -87,10 +87,10 @@ subject: 'Subject'
 
 ### Other Noteworthy Employment
 
-2023 to 2023, Wells Fargo
-2009 to 2011, Honda Aircraft
-2007 to 2009, IBM
-2005 to 2007, AIG (United Guaranty)
+2023 to 2023, Wells Fargo  
+2009 to 2011, Honda Aircraft  
+2007 to 2009, IBM  
+2005 to 2007, AIG (United Guaranty)  
 
 ## Awards & Recognition
 
@@ -100,9 +100,6 @@ subject: 'Subject'
 ## Projects
 
 **[*ipcheck.sh*](https://ipcheck.sh)** (Python to Golang learning project)
-
-
-- Authored a series of articles covering a wide variety of topics and tools related to technology like PHP, WordPress, Ruby, Linux, Docker, and Privacy.
 
 ## Certifications
 
