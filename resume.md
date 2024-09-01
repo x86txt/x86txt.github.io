@@ -13,9 +13,9 @@ author:
 - Matthew Evans
 subject: 'Subject'
 ---
-###### [[mattevans.cloud](https://mattevans.cloud)] . [ me@mattevans.cloud] . [ 704 207 6585 ]
+###### [mattevans.cloud](https://mattevans.cloud) | me@mattevans.cloud | [ 704-207-6585 ]
 
-### Site Reliability Engineer with a strong love of automation, observability, and working collaboratively to achieve the impossible.
+### Site Reliability Engineer with a strong belief in [K.I.S.S.](https://en.wikipedia.org/wiki/KISS_principle), judicious usage of AI to improve productivity, and a love of automation, observability, and working collaboratively to achieve the impossible.
 
 ## Skills
 
@@ -96,7 +96,6 @@ subject: 'Subject'
 
 - Won bid to deploy first public WiFi in Center-City Park in Downtown Greensboro, NC.
 - Honored by Honda Aircraft CEO Michimasa Fujino for last-minute save of Oshkosh Airshow debut of Honda Aircraft when satellite company could not honor broadcast commitment.
-- 
 
 ## Projects
 
@@ -107,6 +106,16 @@ subject: 'Subject'
 
 ## Certifications
 
-### CISSP, ISC2
+### Certified Information Systems Security Professional (CISSP)
+- 2017-Present
+- [Verify at Credly](https://www.credly.com/badges/0e9019e7-545f-4243-9d8f-83c14c4dea7a/public_url)
 
-- 
+### AWS Solutions Architect, Associate
+- 2023-Present
+- [Verify at Credly](https://www.credly.com/badges/560a4d43-a9c9-43dd-8d2c-dc17b4c0f5e3/public_url)
+
+### Certified Kubernetes Administrator (CKA)
+- 2024-Present
+
+### Certified Kubernetes Security Specialist (CKS)
+- 2024-Present

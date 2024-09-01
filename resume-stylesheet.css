@@ -479,7 +479,7 @@ a {
 }
 
 body {
-    background-color: #fff;
+    background-color: #fafafa;
     padding: 30px;
     margin: 15px;
     font-size: 14px;
@@ -522,7 +522,7 @@ h1 {
 h2 {
     font-size: 24px;
     border-bottom: 1px solid #ccc;
-    color: #f39
+    color: #36454F;
 }
 
 h3 {
