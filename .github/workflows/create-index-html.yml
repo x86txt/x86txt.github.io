@@ -45,15 +45,6 @@ jobs:
             resume.pdf
             resume-stylesheet.css
 
-      - name: "Upload Pages artifacts"
-        uses: actions/upload-pages-artifact@v2
-        with:
-          name: github-pages
-          path: |
-            index.html
-            resume.pdf
-            resume-stylesheet.css
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
