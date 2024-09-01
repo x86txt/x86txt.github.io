@@ -8,7 +8,7 @@ on:
 
 jobs:
   convert_via_pandoc:
-    runs-on: ubuntu-latest
+    runs-on: debian-bookworm
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
@@ -21,22 +21,20 @@ jobs:
       - name: "Install pandoc"
         run: |
           wget https://github.com/jgm/pandoc/releases/download/3.3/pandoc-3.3-1-amd64.deb
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/wkhtmltox_0.12.6.1-3.bookworm_amd64.deb
           sudo apt install ./pandoc-3.3-1-amd64.deb
+          sudo apt install ./wkhtmltox_0.12.6.1-3.bookworm_amd64.deb
 
       - name: "Convert MD to HTML"
         run: |
           pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o output/${{github.actor}}-resume.html
-          cp output/${{github.actor}}-resume.html $GITHUB_WORKSPACE/index.html
+          cp output/${{github.actor}}-resume.html $REPO_REL_DIR/index.html
           cp output/${{github.actor}}-resume.html output/index.html
-   
-  deploy:
-    needs: convert_via_pandoc
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+
+      - name: "Convert HTML to PDF"
+        run: "wkhtmltopdf --enable-local-file-access output/${{github.actor}}-resume.html output/${{github.actor}}-resume.pdf"
+      - uses: actions/upload-artifact@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: $GITHUB_WORKSPACE/output
+          name: ${{ github.actor }}'s Resume
+          path: $REPO_REL_DIR/index.html
+  
