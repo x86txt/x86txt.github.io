@@ -85,7 +85,7 @@ subject: 'Subject'
 
 **Technologies used:** AWS, Azure, VMware, pfSense, Cisco, Datacenter, Megaport, Puppet, Bash, Jenkins
 
-### Other Noteworthy Employment
+### Other Noteworthy Employers
 
 2023 to 2023, Wells Fargo  
 2009 to 2011, Honda Aircraft  
