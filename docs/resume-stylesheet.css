@@ -1154,3 +1154,10 @@ sub {
 .author {
     display: none
 }
+
+.footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: monospace;
+    font-size: 12px;
+}
