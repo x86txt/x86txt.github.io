@@ -73,9 +73,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add /docs/*
-          git add /assets/*
-          git commit -m 'Add generated files to /docs & /assets'
+          git add ./docs/*
+          git commit -m 'Add generated files to /docs'
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
