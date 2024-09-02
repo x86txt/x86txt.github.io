@@ -73,13 +73,13 @@ subject: 'Subject'
 
 **Technologies used:** AWS, CDK, Terraform, Fargate, Datadog, BetterStack, Opsgenie, Github Actions
 
-### Director of SRE & CISO, Alpha Theory / Centerbook Partners
+### Director of SRE & CISO, Alpha Theory (SaaS) / Centerbook Partners (Hedge Fund)
 
 2011 to 2020, Charlotte, NC (remote)
 
 - As a member of the executive team, participated in organizational planning and direction, interviewing of all new hires, and ensuring security had a voice at the highest levels of the organization.
 - Managed team of 5 employees and 4 outsourced contractors.
-- Led the organization from startup, through midlife, and finally to a parent organization, while acting as interim-CTO to the wholly owned hedge fund subsidiary, Centerbook Partners.
+- Led the organization from startup, through midlife, and finally to a parent organization with $200 billion under management, while acting as interim-CTO to the wholly owned hedge fund subsidiary, Centerbook Partners ($2B AUM)
 - Led the efforts to move from on-prem to an AWS/Azure hybrid infrastructure, allowing the SaaS application to utilize ephemeral virtual machines, reducing various daily jobs' time by several orders of magnitude.
 - As CISO, led annual black-box penetration testing for infrastructure and application, responsible for vulnerability management program, and overall security posture across the entire organization.
 
@@ -95,7 +95,7 @@ subject: 'Subject'
 ## Awards & Recognition
 
 - Won bid to deploy first public WiFi in Center-City Park in Downtown Greensboro, NC.
-- Honored by Honda Aircraft CEO Michimasa Fujino for last-minute save of Oshkosh Airshow debut of Honda Aircraft when satellite company could not honor broadcast commitment.
+- Honored by Honda Aircraft CEO Michimasa Fujino for ingenious internet-based streaming broadcast system for OshKosh airshow, saving the company several million over traditional satellite live-broadcast provider.
 
 ## Projects
 
@@ -118,5 +118,5 @@ subject: 'Subject'
 - 2024-Present
 
 <footer class="footer">
-last updated: 2024-09-01 | [pdf copy](./resume.pdf)
+last updated: 2024-09-01 | [pdf copy](docs/resume.pdf)
 </footer>

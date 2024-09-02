@@ -1158,6 +1158,7 @@ sub {
 .footer {
     margin-bottom: 0;
     padding-bottom: 0;
-    font-family: monospace;
+    font-family: Consolas,monospace;
     font-size: 12px;
+    text-align: center;
 }
