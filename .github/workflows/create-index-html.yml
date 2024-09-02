@@ -34,7 +34,6 @@ jobs:
 
       - name: "Convert HTML to PDF"
         run: |
-          mkdir -p ./assets/files
           wkhtmltopdf --enable-local-file-access index.html resume.pdf
 
       - name: "Upload artifacts"
